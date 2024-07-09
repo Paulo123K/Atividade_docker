@@ -1,4 +1,3 @@
-```bash
 bashCopiar código
 #!/bin/bash
 sudo yum update -y
@@ -33,5 +32,3 @@ services:
       - /efs/wordpress:/var/www/html
 EOL
 docker-compose -f /efs/docker-compose.yaml up -d
-
-```
